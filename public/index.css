@@ -42,13 +42,14 @@
 
 .alert {
   padding: .5rem 1rem;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
   border-radius: 10px;
   text-align: center;
   margin-bottom: 1rem;
   background: rgba(255, 0, 0, .3);
   color: red;
+}
+
+.avatar {
+  max-width: 300px;
+  height: auto;
 }
