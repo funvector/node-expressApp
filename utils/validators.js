@@ -32,7 +32,6 @@ exports.registerValidators = [
     .trim()
 ]
 
-
 exports.courseValidators = [
   body('title').isLength({min: 3}).withMessage('Минимальная длинна названия 3 символа').trim(),
   body('price').isNumeric().withMessage('Введите корректную цену'),
